@@ -11,6 +11,7 @@ Acync is currently very much under development.
 * Use async_<function name>_caller() to call the function. The return value type is ASYNC_RES(function_name).
 * Use get_<function name>_async_result to wait until the result is available. If an error happened the return value is undefined and an error code will be passed in the second parameter, if it is not NULL.
 * Use 'make' to then build the code. You can use the prog_prepro.c file to see what was generated.
+* ASYNC_RES is a pointer. It can be passed around.
 
 ## Caveats
 * The ASYNC_RES is allocated and released dynamically, in async_<fname>_caller and in get_<fname>_async_result accordingly.

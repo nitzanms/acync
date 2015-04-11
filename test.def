@@ -1,0 +1,12 @@
+#include "fun_macros.h"
+
+
+    //name     , ret   , arg#, args... (format: arg type, arg name)
+    X(sum      , int   , 2   , int*, a, int, b)
+//    X(null_func, void  , 0   )
+/*    X(many_args, size_t, 20, size_t size1, size_t size2, size_t size3, size_t size4, size_t size5,\
+                             size_t size6, size_t size7, size_t size8, size_t size9, size_t size9,\
+                             size_t size10, size_t size11, size_t size11, size_t size12,\
+                             size_t size13, size_t size14, size_t size15, size_t size16,\
+                             size_t size17, size_t size18, size_t size19, size_t size20)
+*/
